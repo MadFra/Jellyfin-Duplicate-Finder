@@ -1,0 +1,20 @@
+---
+name: "DuplicateFinder"
+guid: "b014bf53-1954-4b6b-873b-9ec656866b4e"
+imageUrl: "https://git.madcreativestudios.com/Francesco.Maddaloni/DuplicateFinder/raw/commit/98f81b3a5c4d3d41e1a94e606906ae2d7fc741d2/jellyfin-plugin-duplicatefinder.png"
+version: 1
+targetAbi: "10.8.1.0"
+framework: "net6.0"
+owner: "Francesco Maddaloni"
+overview: "Generate Duplicate report of your media library"
+description: "Generate Duplicate report of your media library"
+category: "General"
+artifacts:
+  - "Jellyfin.Plugin.Reports.dll"
+  - "ClosedXML.dll"
+  - "DocumentFormat.OpenXml.dll"
+  - "ExcelNumberFormat.dll"
+  - "System.IO.Packaging.dll"
+changelog: |2-
+  ### Bug Fixes ###
+  - FirstRelease
